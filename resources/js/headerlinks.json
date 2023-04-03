@@ -1,0 +1,11 @@
+[
+    { "text": "characters", "active": false, "link": "#" },
+    { "text": "comics", "active": true, "link": "#" },
+    { "text": "movies", "active": false, "link": "#" },
+    { "text": "tv", "active": false, "link": "#" },
+    { "text": "collectibles", "active": false, "link": "#" },
+    { "text": "videos", "active": false, "link": "#" },
+    { "text": "fans", "active": false, "link": "#" },
+    { "text": "news", "active": false, "link": "#" },
+    { "text": "shop", "active": false, "link": "#" }
+]

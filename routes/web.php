@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $comics = config('comics');
+    $links = file_get_contents(resource_path('js/headerlinks.json'));
+    $header_links = json_decode($links, true);
+    return view('home', compact('comics', 'header_links'));
 });
